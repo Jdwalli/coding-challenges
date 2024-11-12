@@ -2,4 +2,5 @@
 
 | Year | Progress | Link                                                                                               |
 | ---- | -------- | -------------------------------------------------------------------------------------------------- |
-| 2023 | 6 / 24   | [Advent of Code 2023](https://github.com/Jdwalli/coding-challenges/blob/main/advent_of_code/2023/) |
+| 2022 | ![Progress](https://progress-bar.xyz/12/)   | [Advent of Code 2022](https://github.com/Jdwalli/coding-challenges/blob/main/advent_of_code/2022/) |
+| 2023 | ![Progress](https://progress-bar.xyz/25/)   | [Advent of Code 2023](https://github.com/Jdwalli/coding-challenges/blob/main/advent_of_code/2023/) |
