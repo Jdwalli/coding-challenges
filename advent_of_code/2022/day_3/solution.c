@@ -12,7 +12,7 @@ FILE *openInputFile(const char *filename, const char *mode)
     return file;
 }
 
-char findCommonCharacter(char *firstCompartment, char *secondCompartment)
+char findCommonChar(char *firstCompartment, char *secondCompartment)
 {
     for (int i = 0; firstCompartment[i] != '\0'; i++)
     {
@@ -27,9 +27,24 @@ char findCommonCharacter(char *firstCompartment, char *secondCompartment)
     return '\0';
 }
 
-int calculatePriority(char *firstCompartment, char *secondCompartment)
+char findCommonCharEx(char *firstLine, char *secondLine, char *thirdLine)
 {
-    char commonCharacter = findCommonCharacter(firstCompartment, secondCompartment);
+
+    for (int i = 0; firstLine[i] != '\0'; i++)
+    {
+        char ch = firstLine[i];
+
+        if (strchr(secondLine, ch) && strchr(thirdLine, ch))
+        {
+            return ch;
+        }
+    }
+
+    return '\0';
+}
+
+int calculatePriority(char commonCharacter)
+{
 
     if (commonCharacter >= 'a' && commonCharacter <= 'z')
     {
@@ -75,10 +90,45 @@ int main(int argc, char *argv[])
 
         char *firstCompartment, *secondCompartment;
         splitCompartments(input, strlen(input), &firstCompartment, &secondCompartment);
-        priority += calculatePriority(firstCompartment, secondCompartment);
+        char commonCharacter = findCommonChar(firstCompartment, secondCompartment);
+        priority += calculatePriority(commonCharacter);
     }
 
     printf("Solution One: %d\n", priority);
+    priority = 0;
+
+    fseek(file, 0, SEEK_SET);
+
+    char input1[50], input2[50], input3[50];
+    int lineCount = 0;
+
+    while (!feof(file))
+    {
+        if (fgets(input1, sizeof(input1), file) != NULL)
+        {
+            lineCount++;
+        }
+
+        if (fgets(input2, sizeof(input2), file) != NULL)
+        {
+            lineCount++;
+        }
+
+        if (fgets(input3, sizeof(input3), file) != NULL)
+        {
+            lineCount++;
+        }
+
+        if (lineCount == 3)
+        {
+            char commonChar = findCommonCharEx(input1, input2, input3);
+            priority += calculatePriority(commonChar);
+
+            lineCount = 0;
+        }
+    }
+
+    printf("Solution Two: %d\n", priority);
 
     fclose(file);
 
