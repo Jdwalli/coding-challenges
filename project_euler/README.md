@@ -4,8 +4,8 @@
 | --- | --------------------------- | ------------------ | ------------------ | -------------------- |
 | 1   | Multiples of 3 or 5         | :heavy_check_mark: | :heavy_check_mark: | 19 Apr 20 (19:46.11) |
 | 2   | Even Fibonacci Numbers      | :heavy_check_mark: | :heavy_check_mark: | 21 Apr 20 (20:27.27) |
-| 4   | Largest Palindrome Product  |                    |                    | 02 Oct 21 (02:59.56) |
-| 5   | Smallest Multiple           |                    |                    | 02 Oct 21 (03:20.03) |
+| 4   | Largest Palindrome Product  | :heavy_check_mark: |                    | 02 Oct 21 (02:59.56) |
+| 5   | Smallest Multiple           | :heavy_check_mark: | :heavy_check_mark: | 02 Oct 21 (03:20.03) |
 | 6   | Sum Square Difference       | :heavy_check_mark: | :heavy_check_mark: | 02 Oct 21 (03:27.24) |
 | 14  | Longest Collatz Sequence    |                    |                    | 23 May 22 (14:42.47) |
 | 16  | Power Digit Sum             | :heavy_check_mark: |                    | 23 May 22 (15:03.02) |
