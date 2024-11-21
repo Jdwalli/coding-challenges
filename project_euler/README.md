@@ -12,7 +12,7 @@
 | 22  | Names Scores                | :heavy_check_mark: |                    | 23 May 22 (15:16.13) |
 | 3   | Largest Prime Factor        | :heavy_check_mark: | :heavy_check_mark: | 24 May 22 (00:11.41) |
 | 8   | Largest Product in a Series | :heavy_check_mark: |                    | 25 May 22 (17:37.29) |
-| 99  | Largest Exponential         |                    |                    | 27 May 22 (19:11.27) |
+| 99  | Largest Exponential         | :heavy_check_mark: | :heavy_check_mark: | 27 May 22 (19:11.27) |
 | 20  | Factorial Digit Sum         | :heavy_check_mark: |                    | 14 Nov 24 (01:21.19) |
 | 7   | 10001st Prime               |                    | :heavy_check_mark: | 14 Nov 24 (01:55.27) |
 | 10  | Summation of Primes         | :heavy_check_mark: | :heavy_check_mark: | 18 Nov 24 (01:16.40) |
