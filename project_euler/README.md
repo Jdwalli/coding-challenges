@@ -17,3 +17,4 @@
 | 7   | 10001st Prime               |                    | :heavy_check_mark: | 14 Nov 24 (01:55.27) |
 | 10  | Summation of Primes         | :heavy_check_mark: | :heavy_check_mark: | 18 Nov 24 (01:16.40) |
 | 9   | Special Pythagorean Triplet | :heavy_check_mark: |                    | 18 Nov 24 (13:18.47) |
+| 36  | Double-base Palindromes     | :heavy_check_mark: |                    | 21 Nov 24 (00:22.43) |
