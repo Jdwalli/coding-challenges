@@ -20,3 +20,4 @@
 | 36  | Double-base Palindromes            | :heavy_check_mark: |                    | 21 Nov 24 (00:22.43) |
 | 11  | Largest Product in a Grid          | :heavy_check_mark: |                    | 29 Nov 24 (17:41.25) |
 | 12  | Highly Divisible Triangular Number |                    | :heavy_check_mark: | 29 Nov 24 (17:41.25) |
+| 13  | Large Sum                          | :heavy_check_mark: |                    | 14 Dec 24 (18:05.13) |
